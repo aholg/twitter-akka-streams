@@ -5,5 +5,5 @@ lazy val root = (project in file(".")).settings(
   organization := "com.github.aholg",
   version := "0.1",
   scalaVersion := "2.12.3",
-  libraryDependencies ++= Seq(akkaStream, akkaHttp, akkaHttpTestKit)
+  libraryDependencies ++= Seq(akkaStream, akkaHttp, akkaHttpTestKit, sprayJson)
 )
